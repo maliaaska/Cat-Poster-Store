@@ -8,8 +8,9 @@ import { RouterModule,} from '@angular/router';
 import { MyListComponent } from './my-list/my-list.component';
 import { Component } from '@angular/core';
 import { MyHomeComponent } from './my-home/my-home.component';
-import {PopupModule} from 'ng2-opd-popup';
+import { PopupModule}  from 'ng2-opd-popup';
 import { Http,Headers } from '@angular/http';
+
 
 
 
@@ -25,13 +26,13 @@ const routes: Routes = [
     MyListComponent,
     MyHomeComponent,
     
-    
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     PopupModule.forRoot(),
+    
     RouterModule.forRoot(routes)
   ],
   providers: [],

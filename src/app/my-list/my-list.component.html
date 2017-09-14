@@ -1,6 +1,5 @@
-
-<popup  #popup1>
-    Add your custom html elements here
+<popup #popup1>
+   {{quote}}
 </popup>
 
 <h1>
@@ -13,8 +12,7 @@
   <div class="title">
     <p><strong>Name: </strong>"Sweet Life"</p>
     <p><strong>Price: </strong> 2$</p>
-    <button (click)="onButtonClick()" data-toggle="popover" data-content=quote >Add to Cart</button>
-    <pre>{{ quote | json }} </pre>
+    <button (click)="onButtonClick()">Add to Cart</button>
   </div>
   <hr>
 </div>
@@ -24,7 +22,7 @@
     <div class="title">
       <p><strong>Name: </strong>"Early Morning"</p>
       <p><strong>Price: </strong> 5$</p>
-      <button (click)="onButtonClick">Add to Cart</button>
+      <button (click)="onButtonClick()">Add to Cart</button>
     </div>
     <hr>
 </div>
@@ -34,7 +32,7 @@
     <div class="title">
       <p><strong>Name: </strong>"Akuku"</p>
       <p><strong>Price: </strong> 8$</p>
-      <button (click)="onButtonClick">Add to Cart</button>
+      <button (click)="onButtonClick()">Add to Cart</button>
     </div>
     <hr>
 </div>
@@ -44,7 +42,7 @@
   <div class="title">
     <p><strong>Name: </strong>"Faithful friend"</p>
     <p><strong>Price: </strong> 3$</p>
-    <button>Add to Cart</button>
+    <button (click)="onButtonClick()">Add to Cart</button>
   </div>
   <hr>
 </div>
@@ -54,7 +52,7 @@
     <div class="title">
       <p><strong>Name: </strong>"Give me a break"</p>
       <p><strong>Price: </strong> 2$</p>
-      <button>Add to Cart</button>
+      <button (click)="onButtonClick()">Add to Cart</button>
     </div>
     <hr>
 </div>
@@ -64,7 +62,7 @@
    <div class="title">
      <p><strong>Name: </strong>"Group Bath"</p>
      <p><strong>Price: </strong> 10$</p>
-     <button>Add to Cart</button>
+     <button (click)="onButtonClick()">Add to Cart</button>
    </div>
    <hr>
 </div>
@@ -74,7 +72,7 @@
     <div class="title">
       <p><strong>Name: </strong>"Yin Yang"</p>
       <p><strong>Price: </strong> 9.5$</p>
-      <button>Add to Cart</button>
+      <button (click)="onButtonClick()">Add to Cart</button>
     </div>
     <hr>
 </div>
@@ -84,7 +82,7 @@
   <div class="title">
     <p><strong>Name: </strong>"Mouse Hounter"</p>
     <p><strong>Price: </strong> 6$</p>
-    <button>Add to Cart</button>
+    <button (click)="onButtonClick()">Add to Cart</button>
   </div>
   <hr>
 </div>
@@ -94,7 +92,7 @@
   <div class="title">
     <p><strong>Name: </strong>"I am so sweet"</p>
     <p><strong>Price: </strong> 5$</p>
-    <button>Add to Cart</button>
+    <button (click)="onButtonClick()">Add to Cart</button>
   </div>
   <hr>
 </div>
@@ -104,7 +102,7 @@
   <div class="title">
     <p><strong>Name: </strong>"Universe"</p>
     <p><strong>Price: </strong> 6$</p>
-    <button>Add to Cart</button>
+    <button (click)="onButtonClick()">Add to Cart</button>
   </div>
   <hr>
 </div>
@@ -114,7 +112,7 @@
   <div class="title">
     <p><strong>Name: </strong>"Who is there?"</p>
     <p><strong>Price: </strong> 5$</p>
-    <button>Add to Cart</button>
+    <button (click)="onButtonClick()">Add to Cart</button>
   </div>
   <hr>
 </div>
@@ -124,7 +122,7 @@
   <div class="title">
     <p><strong>Name: </strong>"Winner"</p>
     <p><strong>Price: </strong> 8$</p>
-    <button>Add to Cart</button>
+    <button (click)="onButtonClick()">Add to Cart</button>
   </div>
   <hr>
 </div>
@@ -134,21 +132,11 @@
     <div class="title">
       <p><strong>Name: </strong>"Faithful friend"</p>
       <p><strong>Price: </strong> 5$</p>
-      <button>Add to Cart</button>
+      <button (click)="onButtonClick()">Add to Cart</button>
     </div>
     <hr>
   </div>
 
 
-  <pop-over>
-      <div class="my-own-component">
-          <div class="my-own-title">
-              Title goes here
-          </div>
-          <div class="my-content">
-              Content goes here
-          </div>
-      </div>
-   </pop-over>
-
+ 
   <router-outlet></router-outlet>   
