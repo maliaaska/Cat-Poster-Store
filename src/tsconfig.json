@@ -14,5 +14,12 @@
     "typeRoots": [
       "../node_modules/@types"
     ]
+  },
+
+  "map": {
+    "ng2-popover": "node_modules/ng2-popover"
+},
+  "packages": {
+      "ng2-popover": { "main": "index.js", "defaultExtension": "js" }
   }
 }
