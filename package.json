@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "^2.3.1",
     "@angular/router": "^3.4.10",
     "core-js": "^2.4.1",
+    "ng2-opd-popup": "^1.1.21",
     "ng2-pop-over": "^0.9.37",
     "ng2-popover": "0.0.14",
     "rxjs": "^5.0.1",
