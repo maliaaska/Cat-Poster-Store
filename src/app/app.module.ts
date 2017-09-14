@@ -8,9 +8,8 @@ import { RouterModule,} from '@angular/router';
 import { MyListComponent } from './my-list/my-list.component';
 import { Component } from '@angular/core';
 import { MyHomeComponent } from './my-home/my-home.component';
-import { PopoverModule } from 'ng2-pop-over';
+import {PopupModule} from 'ng2-opd-popup';
 import { Http,Headers } from '@angular/http';
-import { MyQuotesComponent } from './my-quotes/my-quotes.component';
 
 
 
@@ -25,14 +24,14 @@ const routes: Routes = [
     AppComponent,
     MyListComponent,
     MyHomeComponent,
-    MyQuotesComponent,
-    MyQuotesComponent
+    
+    
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    PopoverModule,
+    PopupModule.forRoot(),
     RouterModule.forRoot(routes)
   ],
   providers: [],
