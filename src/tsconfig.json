@@ -15,10 +15,7 @@
       "../node_modules/@types"
     ]
   },
-  "files": [
-    "./src/App.ts",
-    "./typings/main.d.ts"
-],
+ 
   "map": {
     "ng2-popover": "node_modules/ng2-popover"
 },

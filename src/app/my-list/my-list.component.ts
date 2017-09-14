@@ -40,5 +40,6 @@ export class MyListComponent implements OnInit {
   };
 
     this.popup.show(this.popup.options);
+    window.scrollTo(0, 0);
   }
 }

@@ -32,7 +32,6 @@ const routes: Routes = [
     FormsModule,
     HttpModule,
     PopupModule.forRoot(),
-    
     RouterModule.forRoot(routes)
   ],
   providers: [],
