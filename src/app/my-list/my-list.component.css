@@ -1,0 +1,10 @@
+div img {
+    height: 100%;
+    width: 100%;
+}
+
+div {
+    height: 30em;
+    float: left;
+    padding: 10px;
+}
