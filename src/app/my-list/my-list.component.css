@@ -26,6 +26,9 @@ p {
     div {
       width: 100%;
     }
+    viewChild {
+        width: 80%;
+    }
   }
 
   @media (min-width: 650px) and (max-width: 999px) {

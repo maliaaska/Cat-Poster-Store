@@ -1,0 +1,30 @@
+
+  p {
+    font-size: 4em;
+  }
+
+  #catty {
+    font-size: 3em;
+  }
+
+  div {
+    height: 40em;
+   
+    margin: auto;
+    width:60%;
+    left: 0;
+    right: 0;
+    
+  }
+
+  div img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+@media (max-width: 649px) {
+  div {
+    height: 20em;
+  }
+}
